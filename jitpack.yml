@@ -1,2 +1,6 @@
-jdk:
-  - openjdk21
+# Minecraft 26.3 needs Java 25, which JitPack does not offer as a plain "jdk" entry yet
+before_install:
+  - sdk install java 25.0.1-tem
+  - sdk use java 25.0.1-tem
+install:
+  - ./gradlew :build publishToMavenLocal -x test
