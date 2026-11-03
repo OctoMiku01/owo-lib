@@ -1,3 +1,11 @@
+> [!IMPORTANT]
+> **Unofficial Minecraft 26.3 port.** This branch is not maintained or endorsed by Wisp Forest.
+> It is based on the open upstream PR [wisp-forest/owo-lib#500](https://github.com/wisp-forest/owo-lib/pull/500)
+> and only exists so that mods can run on 26.3 until an official owo-lib release is available.
+> The version `0.13.1-port.1+26.3` is deliberately lower than a future official `0.13.1+26.3`,
+> so Fabric Loader prefers the official release as soon as one is installed.
+> Please report issues with this port here, not to Wisp Forest.
+
 <h1 align="center">
     <img src="https://i.imgur.com/VXjFso4.png">
     <br>
