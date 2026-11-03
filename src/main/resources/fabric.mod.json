@@ -13,7 +13,11 @@
     "Noaaan",
     "chyzman"
   ],
-  "contact": {},
+  "contact": {
+    "homepage": "https://github.com/OctoMiku01/owo-lib/tree/port/26.3",
+    "sources": "https://github.com/OctoMiku01/owo-lib",
+    "issues": "https://github.com/OctoMiku01/owo-lib/issues"
+  },
   "license": "MIT",
   "icon": "assets/owo/icon.png",
   "environment": "*",
@@ -49,9 +53,6 @@
   },
   "custom": {
     "modmenu": {
-      "links": {
-        "modmenu.discord": "https://discord.gg/xrwHKktV2d"
-      },
       "badges": [
         "library"
       ]
